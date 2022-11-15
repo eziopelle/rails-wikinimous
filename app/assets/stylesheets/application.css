@@ -13,3 +13,107 @@
  *= require_tree .
  *= require_self
  */
+ h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.index ul {
+  list-style: none;
+  display:flex;
+  justify-content: center;
+}
+
+ ul {
+  list-style: none;
+  display:flex;
+  justify-content: center;
+}
+
+.index li a {
+  text-decoration: none;
+  color: white;
+}
+
+.index li a:hover {
+  text-decoration: none;
+  color:  goldenrod;
+}
+
+
+.index li {
+  background-color: goldenrod;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 300px;
+  color: white;
+}
+
+.index li:hover {
+  text-decoration: none;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 300px;
+  color:  goldenrod;
+}
+
+h2 a {
+  margin-left: 100px, auto;
+  margin-right:100px, auto;
+  background-color: #e32436;
+  padding: 16px;
+  border-radius: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  width: 200px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+h2 a:hover {
+  border: solid;
+  border: 4px;
+  border-color: #e32436;
+  background-color: white;
+  color:#e32436;
+}
+
+.test {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.test2 {
+  display: flex;
+  justify-content: center;
+}
+
+.parentform {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.childform input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 400px;
+  height: 25px;
+  margin: 20px;
+}
+
+.childbtn  {
+padding: 20px;
+}

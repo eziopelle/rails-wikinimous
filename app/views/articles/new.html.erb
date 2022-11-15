@@ -1,0 +1,10 @@
+<h1>Creez votre nouvel article</h1>
+<ul class ="parentform">
+<%= form_with model: @article do |f| %>
+  <li class ="childlabel"><%= f.label :title %></li>
+  <li class ="childform"><%= f.text_field :title %></li>
+  <li class ="childlabel"><%= f.label :content %></li>
+  <li class ="childform"><%= f.text_field :content %></li>
+  <li class ="childbtn"><%= f.submit %></li>
+<% end %>
+</ul>
